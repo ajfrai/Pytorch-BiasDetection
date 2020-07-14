@@ -6,11 +6,11 @@ TODOS:
 
 [x] Upload Deep Fake Notebook
 
-[] Upload Pretrained Deep Fake Model
+[X] Upload Pretrained Deep Fake Model
 
-[] Upload GAN Notebook
+[X] Upload GAN Notebook
 
-[] Train/Prune GANs
+[X] Train/Prune GANs
 
 [] Upload Pretrained GANs
 
