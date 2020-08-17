@@ -1,0 +1,13 @@
+umap
+category_encoders
+cmake
+cyvcf2
+MulticoreTSNE
+numpy
+pandas
+plotly
+scikit-learn
+scipy
+snps
+streamlit
+umap-learn
