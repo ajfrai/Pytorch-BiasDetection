@@ -18,10 +18,10 @@ import uuid
 
 def get_tweets_sample_predictions():
 
-    tweets = pd.read_csv('s3://pytorch-hackathon-bias-detection/labeled_tweets.csv')
+    tweets = pd.read_csv("https://pytorch-hackathon-bias-detection.s3.us-east-2.amazonaws.com/labeled_tweets.csv")
     
     tweets_sample = tweets.sample(frac=.1).reset_index(drop=True)
-    tweets_sample["Prediction"] =          [output_from_notebook.predict(output_from_notebook.model,tweets_sample.Text[i]) for i in range(len(tweets_sample))]
+    tweets_sample["Prediction"] = [output_from_notebook.predict(output_from_notebook.model,tweets_sample.Text[i]) for i in range(len(tweets_sample))]
     white = tweets_sample[tweets_sample.White > tweets_sample.AA].Prediction
     aa = tweets_sample[tweets_sample.AA > tweets_sample.White].Prediction
     return (white,aa)
