@@ -1,4 +1,4 @@
-![Test Image 1](logo4.png)
+![Test Image 1](Screen Shot 2020-08-24 at 4.18.58 PM.png)
 
 
 
