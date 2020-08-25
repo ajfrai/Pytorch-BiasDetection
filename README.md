@@ -1,5 +1,4 @@
-![Test Image 1](/Screen Shot 2020-08-24 at 4.18.58 PM.png)
-
+<img src="/Screen Shot 2020-08-24 at 4.18.58 PM.png" alt="drawing" width="400"/>
 
 
 # Project Description
