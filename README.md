@@ -7,7 +7,7 @@ This is a project for the PyTorch Summer Hackathon. Our goal is to create a Webf
 
 # Status
 
-Working @ https://lit-retreat-53556.herokuapp.com/index.html.
+Working @ https://zerbraai.herokuapp.com/index.html
 
 # Directory Structure
 
